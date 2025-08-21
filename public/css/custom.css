@@ -1,0 +1,154 @@
+button:focus,
+button:active,
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.bg-btn-primary {
+    background-color: black !important;
+    color: white !important;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.9) !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+}
+
+.text-black-80 {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.text-black-70 {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.logo {
+    position: static !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.logo-sign-in {
+    display: none !important;
+}
+
+.image-logo {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.content-container {
+    width: 100% !important;
+}
+
+.input-field {
+    width: 100% !important;
+    padding: 6px 12px !important;
+    border-radius: 5px !important;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.link {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.secondary-btn {
+    width: 100% !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.avatar {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.navbar-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 75% !important;
+    height: 100% !important;
+    background-color: aqua !important;
+}
+
+.app-content-container {
+    display: flex !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.btn-side-bar {
+    width: 100% !important;
+    border-radius: 5px !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border: none;
+}
+
+.btn-side-bar:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.btn-logout {
+    width: 100% !important;
+    border: 1px solid rgba(0, 0, 0, 0.8) !important;
+    border-radius: 5px !important;
+}
+
+.btn-logout:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.logo-forgot-password {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .logo {
+        position: fixed !important;
+        top: 20% !important;
+        left: 20% !important;
+    }
+
+    .logo-sign-in {
+        display: block !important;
+        position: fixed !important;
+        top: 20% !important;
+        left: 20% !important;
+    }
+
+    .image-logo {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .content-container {
+        width: 50% !important;
+    }
+
+    .navbar-container {
+        position: static !important;
+        width: 400px !important;
+    }
+
+    .app-content-container {
+        flex: 1 !important;
+        margin-left: 400px;
+    }
+
+    .logo-forgot-password {
+        position: fixed !important;
+        top: 20% !important;
+        left: 20% !important;
+    }
+}
