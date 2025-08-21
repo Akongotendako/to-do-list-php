@@ -7,7 +7,7 @@ Dofirst is a web-based task management and tracking system designed to help indi
 ## Members
 - John Paul Jesus Pelayo  
 - Aldrine Amistoso  
-- Lord Jan Carombana  
+- Lord Jan Rolmar Carombana  
 - Kristian Kyle Cernal
   
 <img width="1902" height="922" alt="Image" src="https://github.com/user-attachments/assets/b98d125f-d197-4ed0-80bc-e0098e2f3d7e" />
